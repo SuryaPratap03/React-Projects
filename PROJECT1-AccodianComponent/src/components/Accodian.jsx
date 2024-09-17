@@ -25,7 +25,9 @@ const Accodian = () => {
     <div className="max-w-xl mx-auto p-4">
       <div className="container">
         <button
-          onClick={() => setEnableMultipleSelection(!enableMultipleSelection)}
+          onClick={() => {setEnableMultipleSelection(!enableMultipleSelection)
+            setMultipleSelected([])
+          }}
           className="mb-4 bg-blue-500 text-white px-4 py-2 rounded shadow hover:bg-blue-600"
         >
           {enableMultipleSelection ? 'Disable' : 'Enable'} Multiple Selection
