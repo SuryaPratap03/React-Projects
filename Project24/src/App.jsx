@@ -1,12 +1,11 @@
-import { useState } from 'react'
 import './App.css'
+import Accodian from './components/Accodian'
 import ColourChanger from './components/ColourChanger'
 
 function App() {
-  
-
   return (
     <>
+    <Accodian/>
     <ColourChanger/>
     </>
   )
