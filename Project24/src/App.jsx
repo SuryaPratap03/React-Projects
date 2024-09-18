@@ -3,6 +3,8 @@ import Accodian from "./components/Accodian";
 import ColourChanger from "./components/ColourChanger";
 import StarRating from "./components/StarRating";
 import ImageSlider from "./components/ImageSlider";
+import LoadMoreButton from "./components/LoadMoreButton";
+
 
 function App() {
   return (
@@ -17,7 +19,10 @@ function App() {
       {/* <StarRating /> */}
 
       {/* Project4 */}
-      <ImageSlider url={"https://picsum.photos/v2/list"} limit={"10"} />
+      {/* <ImageSlider url={"https://picsum.photos/v2/list"} limit={"10"} /> */}
+
+      {/* Project5 */}
+      <LoadMoreButton/>
     </>
   );
 }
