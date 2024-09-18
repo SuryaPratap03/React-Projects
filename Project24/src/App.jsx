@@ -8,10 +8,10 @@ function App() {
   return (
     <>
     {/* Project1 */}
-    <Accodian/>
+    {/* <Accodian/> */}
 
     {/* Project2 */}
-    <ColourChanger/>
+    {/* <ColourChanger/> */}
     
     {/* Project3 */}
     <StarRating />
