@@ -4,6 +4,9 @@ import ColourChanger from "./components/ColourChanger";
 import StarRating from "./components/StarRating";
 import ImageSlider from "./components/ImageSlider";
 import LoadMoreButton from "./components/LoadMoreButton";
+import TreeView from "./components/TreeView/TreeView";
+
+
 
 
 function App() {
@@ -22,7 +25,10 @@ function App() {
       {/* <ImageSlider url={"https://picsum.photos/v2/list"} limit={"10"} /> */}
 
       {/* Project5 */}
-      <LoadMoreButton/>
+      {/* <LoadMoreButton/> */}
+
+      {/* Project6 */}
+      <TreeView/>
     </>
   );
 }
