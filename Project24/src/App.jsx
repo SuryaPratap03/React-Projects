@@ -5,8 +5,7 @@ import StarRating from "./components/StarRating";
 import ImageSlider from "./components/ImageSlider";
 import LoadMoreButton from "./components/LoadMoreButton";
 import TreeView from "./components/TreeView/TreeView";
-
-
+import QRcodeGenerator from './components/QRcodeGenerator'
 
 
 function App() {
@@ -28,7 +27,10 @@ function App() {
       {/* <LoadMoreButton/> */}
 
       {/* Project6 */}
-      <TreeView/>
+      {/* <TreeView/> */}
+
+      {/* Project7 */}
+      <QRcodeGenerator/>
     </>
   );
 }
