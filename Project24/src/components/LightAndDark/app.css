@@ -1,0 +1,51 @@
+/* Global transition for smooth theme switching */
+body, button {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark theme styles */
+.dark {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark button {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border: 1px solid #444;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.dark button:hover {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Light theme styles */
+.light {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.light button {
+    background-color: #ffffff;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.light button:hover {
+    background-color: #e0e0e0;
+    color: #000;
+    cursor: pointer;
+}
+
+/* Optional: More comfortable button styling for both themes */
+button {
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+}

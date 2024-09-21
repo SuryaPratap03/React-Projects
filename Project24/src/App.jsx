@@ -6,6 +6,8 @@ import ImageSlider from "./components/ImageSlider";
 import LoadMoreButton from "./components/LoadMoreButton";
 import TreeView from "./components/TreeView/TreeView";
 import QRcodeGenerator from './components/QRcodeGenerator'
+import LightAndDarkTheme from "./components/LightAndDark";
+
 
 
 function App() {
@@ -30,7 +32,10 @@ function App() {
       {/* <TreeView/> */}
 
       {/* Project7 */}
-      <QRcodeGenerator/>
+      {/* <QRcodeGenerator/> */}
+
+      {/* Project8 */}
+      <LightAndDarkTheme/>
     </>
   );
 }
