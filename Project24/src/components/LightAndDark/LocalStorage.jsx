@@ -10,7 +10,6 @@ const useLocalStorage = (key,defaultValue) => {
             console.log(error);
             currentvalue = defaultValue;  
         }
-
         return currentvalue;
     });
 

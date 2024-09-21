@@ -5,8 +5,9 @@ import StarRating from "./components/StarRating";
 import ImageSlider from "./components/ImageSlider";
 import LoadMoreButton from "./components/LoadMoreButton";
 import TreeView from "./components/TreeView/TreeView";
-import QRcodeGenerator from './components/QRcodeGenerator'
+import QRcodeGenerator from "./components/QRcodeGenerator";
 import LightAndDarkTheme from "./components/LightAndDark";
+import TabTest from "./components/custom-tabs/tab-test";
 
 
 
@@ -35,7 +36,10 @@ function App() {
       {/* <QRcodeGenerator/> */}
 
       {/* Project8 */}
-      <LightAndDarkTheme/>
+      {/* <LightAndDarkTheme/> */}
+
+      {/* Project9 */}
+      <TabTest />
     </>
   );
 }
