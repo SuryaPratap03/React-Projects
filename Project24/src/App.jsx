@@ -9,6 +9,8 @@ import QRcodeGenerator from "./components/QRcodeGenerator";
 import LightAndDarkTheme from "./components/LightAndDark";
 import TabTest from "./components/custom-tabs/tab-test";
 
+import GithubProfileFinder from "./components/github-profile-finder";
+
 
 
 function App() {
@@ -39,7 +41,10 @@ function App() {
       {/* <LightAndDarkTheme/> */}
 
       {/* Project9 */}
-      <TabTest />
+      {/* <TabTest /> */}
+
+      {/* Project10 */}
+      <GithubProfileFinder/>
     </>
   );
 }
