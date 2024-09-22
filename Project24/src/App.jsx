@@ -10,6 +10,7 @@ import LightAndDarkTheme from "./components/LightAndDark";
 import TabTest from "./components/custom-tabs/tab-test";
 
 import GithubProfileFinder from "./components/github-profile-finder";
+import SearchAutoComplete from "./components/search-autocomplete-with-api";
 
 
 
@@ -44,7 +45,10 @@ function App() {
       {/* <TabTest /> */}
 
       {/* Project10 */}
-      <GithubProfileFinder/>
+      {/* <GithubProfileFinder/> */}
+
+      {/* Search Autocomplete */}
+      <SearchAutoComplete/>
     </>
   );
 }
