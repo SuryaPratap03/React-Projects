@@ -11,6 +11,7 @@ import TabTest from "./components/custom-tabs/tab-test";
 
 import GithubProfileFinder from "./components/github-profile-finder";
 import SearchAutoComplete from "./components/search-autocomplete-with-api";
+import TicTacToe from "./components/TicTacToe";
 
 
 
@@ -48,7 +49,10 @@ function App() {
       {/* <GithubProfileFinder/> */}
 
       {/* Search Autocomplete */}
-      <SearchAutoComplete/>
+      {/* <SearchAutoComplete/> */}
+
+      {/* Tic Tac Toe */}
+      <TicTacToe/>
     </>
   );
 }
