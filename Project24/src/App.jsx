@@ -14,6 +14,8 @@ import SearchAutoComplete from "./components/search-autocomplete-with-api";
 import TicTacToe from "./components/TicTacToe";
 
 import FeatureFlag from "./components/feature-flag";
+import useFetchTester from "./components/use-fetch/test";
+import UseFetchTester from "./components/use-fetch/test";
 
 function App() {
   return (
@@ -55,9 +57,12 @@ function App() {
       {/* <TicTacToe/> */}
 
       {/* Feature Flag Implementation*/}
-      <FeatureFlag/>
+      {/* <FeatureFlag/> */}
+
+      {/* UseFetch - Custom Hook */}
+      <UseFetchTester/>
     </>
-  );
+  )
 }
 
 export default App;
