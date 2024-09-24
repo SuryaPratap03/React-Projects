@@ -13,7 +13,7 @@ import GithubProfileFinder from "./components/github-profile-finder";
 import SearchAutoComplete from "./components/search-autocomplete-with-api";
 import TicTacToe from "./components/TicTacToe";
 
-
+import FeatureFlag from "./components/feature-flag";
 
 function App() {
   return (
@@ -52,7 +52,10 @@ function App() {
       {/* <SearchAutoComplete/> */}
 
       {/* Tic Tac Toe */}
-      <TicTacToe/>
+      {/* <TicTacToe/> */}
+
+      {/* Feature Flag Implementation*/}
+      <FeatureFlag/>
     </>
   );
 }
