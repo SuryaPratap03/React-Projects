@@ -5,7 +5,6 @@ const UseFetchTester=()=>{
     
     return <div>
         <h1>USE FETCH CUSTOM HOOK</h1>
-
         {
             loading ? <div> Loading... Please Wait</div>:null
         }
