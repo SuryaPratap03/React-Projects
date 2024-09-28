@@ -1,4 +1,3 @@
-import "./App.css";
 import Accodian from "./components/Accodian";
 import ColourChanger from "./components/ColourChanger";
 import StarRating from "./components/StarRating";
@@ -19,6 +18,8 @@ import UseOnClickOutsideTest from "./components/use-outside-click/test";
 
 import UseWindowResize from "./components/use-window-resize";
 import { ScrollToTopBottom } from "./components/ScrollToTopBottom";
+import FoodRecipeApp from "./components/FoodRecipeApp"; 
+import ShoppingCartApp from "./components/ShoppingCart";
 
 function App() {
   return (
@@ -72,7 +73,13 @@ function App() {
       {/* <UseWindowResize/> */}
 
       {/* Scroll to Top and Bottom */}
-      <ScrollToTopBottom />
+      {/* <ScrollToTopBottom /> */}
+
+      {/* Food Recipe App */}
+      {/* <FoodRecipeApp/>/ */}
+
+      {/* Shopping Cart App */}
+      <ShoppingCartApp/>
     </>
   )
 }
